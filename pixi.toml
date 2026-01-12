@@ -9,9 +9,9 @@ platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"]
 [dependencies]
 python = ">=3.10,<3.13"
 polars = ">=1.17.0"
-gspread = ">=6.1.4"
-pandas = ">=2.2.0"
+
+[pypi-dependencies]
+gspread = ">=6.2.1"
 
 [tasks]
-example = "python example.py"
-demo = "python example_simple.py"
+main = "python main.py"
