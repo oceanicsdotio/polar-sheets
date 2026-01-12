@@ -82,6 +82,10 @@ To use your own Google Sheet:
 4. Make sure your sheet is shared with your service account email
 5. Run the script: `pixi run example`
 
+## Detailed Guide
+
+For comprehensive instructions including authentication setup, troubleshooting, and advanced use cases, see [USAGE.md](USAGE.md).
+
 ## Development
 
 ### Adding Dependencies
