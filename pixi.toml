@@ -1,0 +1,17 @@
+[project]
+name = "polar-sheets"
+version = "0.1.0"
+description = "Testing Google Sheets to Polars DataFrame developer experience"
+authors = ["oceanicsdotio"]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"]
+
+[dependencies]
+python = ">=3.10,<3.13"
+polars = ">=1.17.0"
+gspread = ">=6.1.4"
+pandas = ">=2.2.0"
+
+[tasks]
+example = "python example.py"
+demo = "python example_simple.py"
