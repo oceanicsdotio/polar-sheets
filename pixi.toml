@@ -1,7 +1,7 @@
 [project]
 name = "polar-sheets"
 version = "0.1.0"
-description = "Testing Google Sheets to Polar Dataframe developer experience"
+description = "Testing Google Sheets to Polars DataFrame developer experience"
 authors = ["oceanicsdotio"]
 channels = ["conda-forge"]
 platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"]

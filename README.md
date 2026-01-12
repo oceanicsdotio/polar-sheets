@@ -1,6 +1,6 @@
 # polar-sheets
 
-Testing Google Sheets to Polar Dataframe developer experience.
+Testing Google Sheets to Polars DataFrame developer experience.
 
 This repository demonstrates how to use [Pixi](https://pixi.sh) for Python environment management and provides an example of pulling data from Google Sheets into a [Polars](https://pola.rs) DataFrame.
 
